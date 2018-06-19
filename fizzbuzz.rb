@@ -5,7 +5,7 @@ def fizzbuzz(num)
     return "Fizz"
   elsif num % 5 == 0
     return "Buzz"
-  else
+  else # this else is not needed because the function will automatically return nil at the end, but better for readability
     return nil
   end
 end
